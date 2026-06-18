@@ -45,30 +45,9 @@ typeEffect();
 
 // Dark Light Mode
 
-// const toggleBtn = document.getElementById("theme-toggle");
-
-// toggleBtn.addEventListener("click", () => {
-//     document.body.classList.toggle("light-mode");
-
-//     const icon = toggleBtn.querySelector("i");
-
-//     if(document.body.classList.contains("light-mode")){
-//         icon.classList.remove("fa-moon");
-//         icon.classList.add("fa-sun");
-//     }else{
-//         icon.classList.remove("fa-sun");
-//         icon.classList.add("fa-moon");
-//     }
-// });
-
-
 const toggleBtn = document.getElementById("theme-toggle");
 const overlay = document.querySelector(".theme-overlay");
 const icon = toggleBtn.querySelector("i");
-
-console.log(toggleBtn);
-console.log(overlay);
-console.log(icon);
 
 toggleBtn.addEventListener("click", () => {
 
@@ -138,20 +117,6 @@ backToTop.addEventListener("click", () => {
 });
 
 // Contact Form
-
-// const form =
-// document.querySelector(".contact-form");
-
-// form.addEventListener("submit", (e)=>{
-
-//     e.preventDefault();
-
-//     alert(
-//       "Thank you for contacting me! I will get back to you soon."
-//     );
-
-//     form.reset();
-// });
 
 const form = document.querySelector(".contact-form");
 
